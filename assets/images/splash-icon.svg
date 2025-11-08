@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="splashGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E50914;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B20710;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20" />
+    </filter>
+  </defs>
+
+  <!-- Background glow -->
+  <circle cx="512" cy="512" r="250" fill="#E50914" filter="url(#glow)" opacity="0.3" />
+  
+  <!-- Main circle -->
+  <circle cx="512" cy="512" r="200" fill="url(#splashGradient)" />
+  
+  <!-- Play symbol -->
+  <path d="M412,412 L412,612 L662,512 Z" fill="white" />
+  
+  <!-- Animated rings (for static SVG, they appear as decorative) -->
+  <g fill="none" stroke="white" opacity="0.2">
+    <circle cx="512" cy="512" r="230" stroke-width="2" />
+    <circle cx="512" cy="512" r="260" stroke-width="1.5" />
+    <circle cx="512" cy="512" r="290" stroke-width="1" />
+  </g>
+</svg>

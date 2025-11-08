@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#E50914"/>
+      <stop offset="100%" style="stop-color:#B20710"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)" rx="180"/>
+  <polygon points="350,250 350,774 750,512" fill="white"/>
+  <rect x="50" y="50" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="50" y="180" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="50" y="310" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="50" y="440" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="50" y="570" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="50" y="700" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="894" y="50" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="894" y="180" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="894" y="310" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="894" y="440" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="894" y="570" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+  <rect x="894" y="700" width="80" height="80" fill="rgba(255,255,255,0.1)" rx="10"/>
+</svg>
